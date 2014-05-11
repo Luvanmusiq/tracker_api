@@ -1,28 +1,35 @@
-== README
+#Tracker API Practice
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is a practice app for implementing the [Pivotal Tracker API](https://www.pivotaltracker.com/help/api).
 
-Things you may want to cover:
+##How to Contribute to Ski Area Bucket List
 
-* Ruby version
+* Visit the repository: [https://github.com/grcote/tracker_api](https://github.com/grcote/tracker_api)
 
-* System dependencies
+* Fork the repository to your GitHub account.
 
-* Configuration
+* Clone forked repository to your local machine:
 
-* Database creation
+    `git clone git@github.com:<<your GitHub username>>/tracker_api.git`
 
-* Database initialization
+* Navigate into the directory created for the application on your machine from the above cloning:
 
-* How to run the test suite
+    `cd tracker_api`
 
-* Services (job queues, cache servers, search engines, etc.)
+* Run `bundle install`
 
-* Deployment instructions
+* Create a branch to make your changes:
 
-* ...
+    `git branch <<branch name>>`
 
+* Checkout the branch you created:
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+    `git checkout <<branch_name>>`
+
+* Commit the changes.
+
+* Push the changes to your GitHub account:
+
+    `git push origin <<branch name>>`
+
+* Send us a pull request from your GitHub account and we will check it out.
