@@ -1,0 +1,18 @@
+<h1>Gerard's Tracker Projects</h1>
+<h2 style="font-style: italic">Stories for <%= @selected_project_name %></h2>
+
+<ul>
+  <% @story_data.each do |story| %>
+    <li><%= story["name"] %></li>
+  <% end %>
+</ul>
+
+<h2 style="font-style: italic">Comments for <%= @selected_project_name %></h2>
+
+<ul>
+  <% @comment_data.each do |comment| %>
+    <li><%= comment %></li>
+  <% end %>
+</ul>
+
+<%= link_to "Home", root_path %>

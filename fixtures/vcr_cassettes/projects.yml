@@ -1,0 +1,403 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://www.pivotaltracker.com/services/v5/projects/
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.0
+      X-Trackertoken: xxxxxxxxxxxxxxx5xxxxxxxxxxxxxxxx
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 200 OK
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c7f3f28c6f6cbe62ed928f9046f31790
+      X-Runtime:
+      - '0.223519'
+      Date:
+      - Sun, 11 May 2014 13:12:41 GMT
+      X-Rack-Cache:
+      - miss
+      X-Powered-By:
+      - Phusion Passenger 4.0.41
+      Server:
+      - nginx/1.6.0 + Phusion Passenger 4.0.41
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Credentials:
+      - 'false'
+      Access-Control-Allow-Methods:
+      - GET, POST, PUT, DELETE, OPTIONS
+      Access-Control-Allow-Headers:
+      - X-TrackerToken,DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,X-Tracker-Warn-Unless-Project-Version-Is
+    body:
+      encoding: UTF-8
+      string: |-
+        [
+          {
+            "id": 1077080,
+            "kind": "project",
+            "name": "Tracker API",
+            "version": 11,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T06:00:00Z",
+            "created_at": "2014-05-09T16:31:37Z",
+            "updated_at": "2014-05-09T16:31:37Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
+            "enable_following": true
+          },
+          {
+            "id": 1056960,
+            "kind": "project",
+            "name": "Ski Bucket List",
+            "version": 197,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "description": "This application tracks the ski areas I've skied and lists the areas I'd like to ski before I die. It is a gSchool learning exercise.",
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-07T06:00:00Z",
+            "created_at": "2014-04-09T17:01:30Z",
+            "updated_at": "2014-04-09T20:27:23Z",
+            "account_id": 622224,
+            "current_iteration_number": 5,
+            "enable_following": true
+          },
+          {
+            "id": 1069196,
+            "kind": "project",
+            "name": "bitter_cherry's Team CRUD",
+            "version": 385,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-28T06:00:00Z",
+            "created_at": "2014-04-28T17:20:53Z",
+            "updated_at": "2014-04-28T17:20:53Z",
+            "account_id": 622224,
+            "current_iteration_number": 2,
+            "enable_following": true
+          },
+          {
+            "id": 1047420,
+            "kind": "project",
+            "name": "URLSchwartz",
+            "version": 60,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-24T07:00:00Z",
+            "created_at": "2014-03-27T18:57:10Z",
+            "updated_at": "2014-03-27T18:57:10Z",
+            "account_id": 622224,
+            "current_iteration_number": 7,
+            "enable_following": true
+          },
+          {
+            "id": 1060118,
+            "kind": "project",
+            "name": "Gerard's User Authentication",
+            "version": 122,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-04-14T06:00:00Z",
+            "created_at": "2014-04-14T19:57:15Z",
+            "updated_at": "2014-04-14T19:57:15Z",
+            "account_id": 622224,
+            "current_iteration_number": 4,
+            "enable_following": true
+          },
+          {
+            "id": 1029438,
+            "kind": "project",
+            "name": "Gerard's Work",
+            "version": 281,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-03T07:00:00Z",
+            "created_at": "2014-03-04T20:06:38Z",
+            "updated_at": "2014-03-04T20:06:38Z",
+            "account_id": 622224,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1031130,
+            "kind": "project",
+            "name": "students.gschool.it",
+            "version": 174,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": true,
+            "start_time": "2014-03-03T08:00:00Z",
+            "created_at": "2014-03-06T15:20:39Z",
+            "updated_at": "2014-04-27T20:58:33Z",
+            "account_id": 598246,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 966426,
+            "kind": "project",
+            "name": "gSchoolMarch2014Curriculum",
+            "version": 2394,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-03T07:00:00Z",
+            "created_at": "2013-11-27T22:52:23Z",
+            "updated_at": "2013-12-19T04:01:52Z",
+            "account_id": 598246,
+            "current_iteration_number": 10,
+            "enable_following": true
+          },
+          {
+            "id": 1037360,
+            "kind": "project",
+            "name": "gSchoolScreenHeroRequests",
+            "version": 96,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Los_Angeles",
+              "offset": "-07:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-03-17T07:00:00Z",
+            "created_at": "2014-03-14T12:21:20Z",
+            "updated_at": "2014-03-14T12:21:20Z",
+            "account_id": 622224,
+            "current_iteration_number": 8,
+            "enable_following": true
+          },
+          {
+            "id": 778329,
+            "kind": "project",
+            "name": "Fitness Club Tracker",
+            "version": 122,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "description": "Admin and reporting tool for Mesa Elementary's Fitness Club",
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": true,
+            "atom_enabled": false,
+            "start_date": "2013-03-11",
+            "start_time": "2013-03-11T06:00:00Z",
+            "created_at": "2013-03-12T19:25:26Z",
+            "updated_at": "2013-07-16T06:08:07Z",
+            "account_id": 503167,
+            "current_iteration_number": 61,
+            "enable_following": true
+          },
+          {
+            "id": 1075532,
+            "kind": "project",
+            "name": "Cote and Klabunde's TrackerHub",
+            "version": 24,
+            "iteration_length": 1,
+            "week_start_day": "Monday",
+            "point_scale": "0,1,2,3",
+            "point_scale_is_custom": false,
+            "bugs_and_chores_are_estimatable": false,
+            "enable_planned_mode": false,
+            "enable_tasks": true,
+            "time_zone": {
+              "kind": "time_zone",
+              "olson_name": "America/Denver",
+              "offset": "-06:00"
+            },
+            "velocity_averaged_over": 3,
+            "number_of_done_iterations_to_show": 12,
+            "has_google_domain": false,
+            "enable_incoming_emails": true,
+            "initial_velocity": 10,
+            "public": false,
+            "atom_enabled": false,
+            "start_time": "2014-05-05T06:00:00Z",
+            "created_at": "2014-05-07T19:28:57Z",
+            "updated_at": "2014-05-07T19:28:57Z",
+            "account_id": 622224,
+            "current_iteration_number": 1,
+            "enable_following": true
+          }
+        ]
+    http_version: 
+  recorded_at: Sun, 11 May 2014 13:12:41 GMT
+recorded_with: VCR 2.9.0
